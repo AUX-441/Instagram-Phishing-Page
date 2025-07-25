@@ -44,22 +44,37 @@ The primary goal is to raise awareness about phishing risks and help improve def
 ```bash
 git clone https://github.com/your-username/educational-login-sim.git
 cd educational-login-sim
-2. Set Up a Virtual Environment (Recommended)
-bash
-Copy
-Edit
+
+
+## 2. Set Up a Virtual Environment (Recommended)
+
 python -m venv venv
-source venv/bin/activate      # On Windows: venv\Scripts\activate
-3. Install Dependencies
-bash
-Copy
-Edit
+source venv/bin/activate
+
+## 3. Install Dependencies
 pip install -r requirements.txt
-4. Start the Flask Server
-bash
-Copy
-Edit
+
+
+## 4. Start the Flask Server
 python app.py
-Then open your browser and visit:
-http://127.0.0.1:5000
+
+
+### 🛠 Technologies Used
+Python 3
+
+Flask Web Framework
+
+HTML, CSS, JavaScript
+
+JSON APIs
+
+Local text file logging
+
+
+### 📜 License
+This project is licensed under the MIT License – feel free to use, modify, and distribute with attribution.
+
+
+
+
 
